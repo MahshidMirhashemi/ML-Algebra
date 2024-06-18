@@ -1,39 +1,49 @@
-# Application of Machine Learning in computation of Pommaret bases
+# Application of Machine Learning in Computation of Pommaret Bases
 
-This repository is the sorce code of the paper [link]. 
-In this project, we produced a 10000 ideals and their feartures and computed the best elementary move using volume polynomials. 
-By using this dataset, we applied the following machine techniques on the dataset
-• k Nearest Neighbours (kNN)
-• Support Vector Machine (SVM)
-• Decision Tree (DT)
-• Multilayer Perceptron (MLP)
-• Logistic Regression (LR)
+This repository contains the source code for the paper [link]. In this project, we generated 10,000 ideals and their features, and computed the best elementary moves using volume polynomials. Using this dataset, we applied the following machine learning techniques:
+- k-Nearest Neighbors (kNN)
+- Support Vector Machine (SVM)
+- Decision Tree (DT)
+- Multilayer Perceptron (MLP)
+- Logistic Regression (LR)
 
-# Part 1: Sagemath folder
+## Repository Structure
 
-This part is focused on producing dataset and also studying the result of each ML methods output at the end. 
-It also contains the democratic and random strategy, and some figures and information about the dataset and different methods. 
-Sagemath has been used in the Jupyter notebooks of this folder.
+### Part 1: Sagemath
 
+This folder focuses on producing the dataset and analyzing the results of each machine learning method. It also includes:
+- Democratic and random strategy implementations
+- Figures and information about the dataset and different methods
 
-# Part 2: ML
+The Jupyter notebooks in this folder use Sagemath.
 
-This folder contains different machine learning methods for the given dataset.
-Python has been used in the Jupyter notebooks of this folder.
+### Part 2: ML
 
+This folder contains implementations of different machine learning methods for the given dataset. The Jupyter notebooks in this folder use Python.
 
-# Part 3: Database
+### Part 3: Database
 
-will be uploaded soon!
-
+This folder will be uploaded soon!
 
 ## Usage
 
-For producing dataset in a polynomial ring with 4, 5 or 6 variables, open Sagemath/0.Running_codes.ipynb.
-In the second cell, set the number N as the number of varibales in the polynomial ring.
-In the third cell, set x2 as the number of ideals you want to produce. 
-After running all the cells, you will have 3 files
- • statistical_features.csv
- • theoritical_features.csv
- • outputs.csv
-Also all the information including ideals, Grobner bases, monomial Janet bases and elementary moves will be stored in the database files. 
+To produce a dataset in a polynomial ring with 4, 5, or 6 variables, follow these steps:
+
+1. Open `Sagemath/0.Running_codes.ipynb`.
+2. In the second cell, set `N` to the number of variables in the polynomial ring.
+3. In the third cell, set `x2` to the number of ideals you want to produce.
+4. Run all the cells in the notebook. You will generate three files:
+   - `statistical_features.csv`
+   - `theoretical_features.csv`
+   - `outputs.csv`
+
+All the information, including ideals, Gröbner bases, monomial Janet bases, and elementary moves, will be stored in the database files.
+
+---
+
+### Notes:
+- Ensure that Sagemath is installed and properly configured for the Jupyter notebooks in the Sagemath folder.
+- For the ML folder, ensure that Python and necessary libraries (like scikit-learn) are installed.
+
+### Future Work
+- Upload the `Database` folder with complete datasets and additional documentation.
