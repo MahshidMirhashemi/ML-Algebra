@@ -1,6 +1,6 @@
 # Application of Machine Learning in Computation of Pommaret Bases
 
-This repository contains the source code for the paper Machine Learning Parameter Systems, Noether Normalisations and Quasi-stable Positions by Hashemi, Mirhashemi, Seiler (Journal of Symbolic Computation, to appear) [https://doi.org/10.1016/j.jsc.2024.102345]. In this project, we generated 10,000 ideals and their features, and computed the best elementary moves using volume polynomials. Using this dataset, we applied the following machine learning techniques:
+This repository contains the source code for the article "Machine Learning Parameter Systems, Noether Normalisations and Quasi-stable Positions" by A. Hashemi, M. Mirhashemi, W.M. Seiler (Journal of Symbolic Computation, to appear) [https://doi.org/10.1016/j.jsc.2024.102345]. In this project, we studied the problem of putting polynomial ideals into quasi-stable position, i.e. of choosing "good" coordinates in which the ideals are easier to analyse, using a sequence of elementary moves, i.e. very sparse transformations. We compared different machine learning approaches for solving this problem. We generated 10,000 ideals and computed for them the best elementary moves using volume polynomials. On the basis of this dataset, we applied the following machine learning techniques:
 - k-Nearest Neighbors (kNN)
 - Support Vector Machine (SVM)
 - Decision Tree (DT)
